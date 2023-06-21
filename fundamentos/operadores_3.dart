@@ -13,6 +13,7 @@ main() {
   print(a++ == --b);
   print(++a == --b);
 
+  //Operadores unários de negação lógica
   print(!true); //vai dar false
   print(!false); //vai dar true
 
