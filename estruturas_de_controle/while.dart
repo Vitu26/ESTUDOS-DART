@@ -6,6 +6,7 @@ main() {
   while (digitado != 'sair') {
     stdout.write("Digite algo ou sair: ");
     digitado = stdin.readLineSync().toString();
+    
   }
 
   // for (; digitado != 'sair';) {
