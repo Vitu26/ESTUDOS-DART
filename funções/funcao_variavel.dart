@@ -9,6 +9,12 @@ main() {
     return x + y;
   }; //sentença de código de uma variável
   print(soma2(7, 8));
+
+  //função anonima gravada em uma variável dinamica e usando a inferencia para dar o tipo de dados
+  var soma3 = (x, y) {
+    return x * y;
+  };
+  print(soma3(4, 8));
 }
 
 int somaFn(int a, int b) {

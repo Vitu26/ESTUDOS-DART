@@ -1,0 +1,14 @@
+main() {
+  var notas = [8.2, 7.1, 6.2, 4.4, 3.9, 8.8, 9.1, 5.1];
+
+  bool Function(double) notasFn = (double nota) => nota >= 7;
+  var notasMuitoBoasFn = (double nota) => nota >= 8.8;
+
+  var notasBoas = notas.where(notasFn);
+  var notasMuitoBoas = notas.where(notasMuitoBoasFn);
+
+  print(notas);
+  print(notasFn);
+  print(notasMuitoBoas);
+}
+//função filter: função usada para filtrar elementos. utilizamos o metodo where para que se possa se filtrado
